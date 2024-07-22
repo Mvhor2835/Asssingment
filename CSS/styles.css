@@ -1,0 +1,147 @@
+/* MohamadAfrid AbdulRehaman Vhora - 8972835 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 400 20px/1.5 Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333; 
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333; 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #004d00; 
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #004d00; 
+    margin-bottom: 10px;
+}
+
+#Biography {
+    float: left;
+    width: 70%;
+}
+
+#Biography figure {
+    margin-top: 20px;
+}
+
+#Biography figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#Achievements {
+    clear: both;
+}
+
+aside {
+    width: 30%;
+}
+
+aside h2 {
+    font-size: 20px;
+    color: #ff5c33; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #0066cc; 
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #004466; 
+}
+
+aside form {
+    margin-top: 10px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="submit"] {
+    background-color: #ff5c33; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3d00; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    p
+}
